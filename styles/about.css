@@ -179,15 +179,12 @@ section {
   transition: background-color 0.3s ease;
 }
 .about-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  align-items: centre;
-  background-color: #ffcc00;
+  background-color: var(--jci-yellow);
 }
 .about-section h2 {
   line-height: 1.4;
   font-size: 2rem;
+  text-align: center;
 }
 .impact-section {
   display: grid;
